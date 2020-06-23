@@ -1,0 +1,77 @@
+
+ *, *::before, *::after{
+  box-sizing: border-box;
+  font-family: 'Get Schwifty';
+  ;
+}
+
+@font-face {
+  font-family: 'get_schwiftyregular';
+  src: url('get_schwifty.woff2') format('woff2'),
+       url('get_schwifty.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+  
+body {
+  padding:o;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center; 
+  
+  align-items: center;
+background-color:#030504;
+}
+
+
+#quiz{
+ 
+  width: 800px;
+  max-width: 80%;
+  background-color: #7FFF00;
+  border-radius: 5px;
+  padding:10px; 
+  height: 400px;
+   display:flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+  justify-content: space-between;
+  font-size:40 px ;
+  color:#030504 ;
+}
+
+#submit{
+  height: 100px;
+  border-radius: 5px;
+}
+#choice0 ,#choice1,#choice2{
+  
+  font-size: 30px;
+}
+#results{
+  height: 100px;
+  font-size: 2em;
+  color:#7FFF00;
+}
+
+@media screen and (min-width: 900px) {
+  body{
+  background-color:#7FFF00 ;
+  }
+  #quiz {
+    background-color:#030504;
+    color: #7FFF00;
+    width:900px;
+    height: 500px;
+  }
+  #results{
+    color: #030504;
+    
+  }
+}

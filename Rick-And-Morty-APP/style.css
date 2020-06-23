@@ -1,0 +1,206 @@
+
+
+@font-face {
+  font-family: 'get_schwiftyregular';
+  src: url('get_schwifty.woff2') format('woff2'),
+       url('get_schwifty.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+header {
+  
+  
+  
+  background-image: url("https://render.fineartamerica.com/images/rendered/search/print/7/8/break/images/artworkimages/medium/2/rick-and-morty-4-geek-n-rock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-color: #030504;
+  background-size:cover;
+  font-family: 'Get Schwifty' ;
+height: 500px;
+color: white;
+margin: 0;
+padding: 0;
+display: flex;
+text-align: center;
+
+
+justify-content: center;
+
+ }
+ body {
+   background-color: white;
+   padding:0;
+   margin-left:10px ;
+   margin-right: 10px;
+   border:10px;
+ }
+ 
+ article {
+   background-color:#030504 ;
+   padding: 0;
+  
+   
+ }
+ h3 {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   color:#34623F;
+   font-family: 'Get Schwifty';
+   margin: 0;
+   justify-content: center;
+   
+ }
+ 
+ .Characters{
+  
+  display: flex;
+  overflow-x: scroll;
+color: #BFC8B2;
+background-color: #030504;
+text-align: center;
+font-family: 'Get Schwifty';
+margin: 0; 
+
+}
+
+button:hover{
+  flex-grow: 3;
+}
+
+ section {
+  background-color:#030504;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+margin: 0;
+ }
+
+
+.p {
+  color:#BFC8B2;
+  display:flex;
+
+
+}
+
+
+ 
+
+    
+  
+
+.game1 {
+  background-color:#1C381B;
+  box-sizing: border-box; 
+background-image: url("https://consequenceofsound.net/wp-content/uploads/2018/05/rick-and-morty.png?w=807");
+background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  display: flex;
+  align-self: center;
+  height: 200px;
+  margin: 10px;
+  width: 400px;
+  flex-direction: row;
+  justify-content:space-around ;
+  align-items: center;
+}
+.game2 {
+
+  background-color:#1C381B;
+  box-sizing: border-box; 
+  background-image: url("https://cdn-www.konbini.com/en/files/2019/05/rick-morty-feat.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    align-items: center;
+    height: 200px;
+  margin: 10px;
+  width: 400px;
+  flex-direction: row;
+  justify-content:space-around ;
+  }
+
+  aside {
+    color: blue;
+  }
+
+     
+    
+button {
+  background-color: #BBB763;
+  border-radius: 50% ;
+
+}
+
+
+
+footer {
+ color:white;
+  background-color: #030504;
+}
+
+@media screen and (min-width: 900px) {
+  header{
+    background-size: cover;
+    background-color:#BBB763 ;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+  }
+  body {
+    background-color:#BBB763;
+  }
+  .game1 {
+    background-color:#1C381B;
+    box-sizing: border-box; 
+  background-image: url("https://consequenceofsound.net/wp-content/uploads/2018/05/rick-and-morty.png?w=807");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    align-self: center;
+    height: 200px;
+    margin: 10px;
+    width: 700px;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+    border-color: #7FFF00;
+   
+  }
+  .game2 {
+  
+    background-color:#1C381B;
+    box-sizing: border-box; 
+    background-image: url("https://cdn-www.konbini.com/en/files/2019/05/rick-morty-feat.jpg");
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center ;
+      display: flex;
+      align-items: center;
+      height: 200px;
+    margin: 10px;
+    width: 700px;
+    flex-direction: row;
+    justify-content:space-around ;
+    border-color: #7FFF00;
+    }
+  
+  .game1:hover{
+    border-radius: 50%;
+  }
+  .game2:hover{
+    border-radius: 50%;
+  }
+  }
